@@ -17,6 +17,7 @@ function Multer (options) {
     this.storage = memoryStorage()
   }
 
+  this.charset = options.charset ?? 'utf8'
   this.limits = options.limits
   this.preservePath = options.preservePath
   this.fileFilter = options.fileFilter || allowAll
@@ -45,6 +46,7 @@ Multer.prototype._makeMiddleware = function (fields, fileStrategy) {
     }
 
     return {
+      charset: this.charset,
       limits: this.limits,
       preservePath: this.preservePath,
       storage: this.storage,
