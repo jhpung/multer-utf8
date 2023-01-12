@@ -1,7 +1,7 @@
 {
   "name": "multer-utf8",
   "description": "Middleware for handling `multipart/form-data` and 'utf8' charset.",
-  "version": "1.4.5-lts.6",
+  "version": "1.4.5-lts.7",
   "contributors": [
     "JungHyeon Pung <jhpung.dev@gmail.com> (https://www.paulpung.dev)",
     "Hage Yaapa <captain@hacksparrow.com> (http://www.hacksparrow.com)",
@@ -9,7 +9,7 @@
     "Linus Unnebäck <linus@folkdatorn.se>"
   ],
   "license": "MIT",
-  "repository": "jhpung/multer-utf8",
+  "repository": "https://github.com/jhpung/multer-utf8",
   "keywords": [
     "form",
     "post",
