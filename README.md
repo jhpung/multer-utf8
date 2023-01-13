@@ -14,6 +14,14 @@ try {
 }
 ```
 
+|Key| Description|
+|--|--|
+|dest or storage| Where to store the files|
+|fileFilter| Function to control which files are accepted|
+|limits| Limits of the uploaded data|
+|preservePath| Keep the full path of files instead of just the base name|
+|charset| charset of files. for example `latin1`, `utf8`|
+
 ## Support `latin1`
 
 ```
