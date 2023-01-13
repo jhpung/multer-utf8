@@ -14,16 +14,21 @@ try {
 }
 ```
 
-### Support `latin1`
+## Support `latin1`
 
 ```
-// mutler for utf8 
+/**
+* mutler for utf8 
+* default charset is `utf8`
+*/ 
+
 const multerWithUTF8 = multer({
-  charset: 'utf8',
+  ...mutlerOptions
 })
 
 // multer for latin1
 const multer = multer({
+  ...multerOptions
   charset: 'latin1'
 });
 ```
