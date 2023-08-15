@@ -77,6 +77,7 @@ Multer.prototype.none = function () {
 Multer.prototype.any = function () {
   function setup () {
     return {
+      charset: this.charset,
       limits: this.limits,
       preservePath: this.preservePath,
       storage: this.storage,
