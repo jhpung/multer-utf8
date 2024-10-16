@@ -8,6 +8,9 @@
     "Jaret Pfluger <https://github.com/jpfluger>",
     "Linus Unnebäck <linus@folkdatorn.se>"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "license": "MIT",
   "repository": "https://github.com/jhpung/multer-utf8",
   "keywords": [
